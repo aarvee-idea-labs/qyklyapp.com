@@ -1,69 +1,1835 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Welcome to Firebase Hosting</title>
-    <style media="screen">
-      body {
-        font-family: Roboto, Arial, sans-serif;
-        background: #ECEFF1;
-        color: rgba(0,0,0,0.87);
-      }
+<html lang="en">
+    <head>
+        <style type="text/css">
+            .gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+        </style>
+        <style type="text/css">
+            .gm-style-pbc{transition:opacity ease-in-out;background-color:black;text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+        </style>
+        <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300,700,500' rel='stylesheet' type='text/css'/>
+      
+        <style type="text/css">
+            .gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
+        </style>
+        <style type="text/css">
+            @media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}
+        </style>
+        <style type="text/css">
+            .gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}.gm-style img{max-width:none}
+        </style>
+        <style type="text/css">
+            .gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+        </style>
+        <style type="text/css">
+            .gm-style-pbc{transition:opacity ease-in-out;background-color:black;text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+        </style>
+      
+        <style type="text/css">
+            .gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
+        </style>
+        <style type="text/css">
+            @media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}
+        </style>
+        <style type="text/css">
+            .gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}.gm-style img{max-width:none}
+        </style>
+        <style type="text/css">
+            .gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+        </style>
+        <style type="text/css">
+            .gm-style-pbc{transition:opacity ease-in-out;background-color:black;text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+        </style>
+       
+        <style type="text/css">
+            .gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
+        </style>
+        <style type="text/css">
+            @media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}
+        </style>
+        <style type="text/css">
+            .gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}.gm-style img{max-width:none}
+        </style>
+        <style type="text/css">
+            .gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+        </style>
+        <style type="text/css">
+            .gm-style-pbc{transition:opacity ease-in-out;background-color:black;text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+        </style>
+       
+        <style type="text/css">
+            .gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
+        </style>
+        <style type="text/css">
+            @media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}
+        </style>
+        <style type="text/css">
+            .gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}.gm-style img{max-width:none}
+        </style>
+        <style type="text/css">
+            .gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+        </style>
+        <style type="text/css">
+            .gm-style-pbc{transition:opacity ease-in-out;background-color:black;text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+        </style>
+        
+        <style type="text/css">
+            .gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
+        </style>
+        <style type="text/css">
+            @media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}
+        </style>
+        <style type="text/css">
+            .gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}.gm-style img{max-width:none}
+        </style>
+        <style type="text/css">
+            .gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+        </style>
+        <style type="text/css">
+            .gm-style-pbc{transition:opacity ease-in-out;background-color:black;text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+        </style>
+       
+        <style type="text/css">
+            .gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
+        </style>
+        <style type="text/css">
+            @media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}
+        </style>
+        <style type="text/css">
+            .gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}.gm-style img{max-width:none}
+        </style>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="format-detection" content="telephone=no"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+        <meta name="keywords" content="Finance,Expense manager,e-wallet,Android app, Money manager, personal assistant, money management,cash ,utilities bills, reminders,notification, purchases,PNR status, traveling,journey,cash,cash withdrawal,net banking,imps,transactions,tracker,safe and secure,monthly budget,widgets,dormant accounts,paytm,mobikwik,myntra,electricity bills,extra money,late payment,messages,spendings,moneyview,mint app,walnut,gullak,growth,money saver,budget"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css"/>
+        <link href="css/devices.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" href="img/favicon.png"/>
+        <title>
+            Qykly
+        </title>
+        <!--
+            <script src="js/jquery.slides.min.js">
+            </script>
+            <script src="http://code.jquery.com/jquery-1.9.1.min.js">
+            </script>
+        -->
+        
+    </head>
+    <body class="loaded" data-theme="theme-1">
+        <!-- HEADER -->
+        <header class="act">
+            <a href="index.html" id="logo">
+                <img src="img/Logo.png" class="act" alt="" style="height:3rem" />
+                <img src="img/Logo.png" alt="" style="height:3rem" />
+            </a>
+            <div class="mob-icon">
+                <span>
+                </span>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#home" class="submeny-top scroll-to-link act">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#what-is-qykly" class="scroll-to-link">
+                            Why QYKLY
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#how-it-work" class="scroll-to-link">
+                            HOW IT WORKS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="scroll-to-link">
+                            GET IN TOUCH
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://qykly.wordpress.com/" class="scroll-to-link" target="_blank">
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://play.google.com/store/apps/details?id=qykly.me" target="_blank" class="submeny-top act">
+                            Download Now
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- LOADER -->
+        <div style="display: none;" id="loader-wrapper">
+            <!-- <img src="img/theme-1/logo.png" alt=""/> -->
+            <span>
+            </span>
+        </div>
+        <div id="content-wrapper">
+            <div class="blocks-container">
+                <!-- block -->
+                <div class="new-block type-11 increased-height scroll-to-block" data-id="home">
 
-      a {
-        color: rgb(3,155,229);
-      }
+                    <div class="swiper-container horizontal-pagination " data-autoplay="0" data-loop="1" data-speed="500" data-center="0" data-slides-per-view="1" >
+                       
 
-      #message {
-        max-width: 400px;
-        margin: 40px auto;
-        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12);
-        border-radius: 2px;
-        background: white;
-        padding: 16px 24px;
-      }
+                    <div class="swiper-wrapper" style="width: 5184px; height: 650px;">
+                            
+                           <div class="swiper-slide swiper-slide-visible swiper-slide-active " style="width: 1296px; height: 650px; background-image: url(&quot;img/slider2.png&quot;);">
+                                <img src="img/slider2.png" height="1080" width="1920" class="center-image" alt="" style="display: none;"/>
+                                <div class="center-tagline">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-8 col-md-offset-2 banner-text type-1-center">
+                                                <div class="banner-article">
+                                                    <h1 class="title">
+                                                        Simplifying life
 
-      #message h1 {
-        font-size: 22px;
-        font-weight: 500;
-        text-align: center;
-        margin: 0 0 16px;
-      }
+                                                    </h1>
+                                                    <div class="description">
+                                                      Brings all your purchases, finances and travel updates under one single roof.
+                                                    </div>
+                                                    <a class="" href="https://play.google.com/store/apps/details?id=qykly.me"  target="_blank">
+                                                        <span>
+                                                            <img src="img/play_store.png"  />
+                                                        </span>
+                                                    </a>
+                                                    <br/>
+                                                </div>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="width: 1296px; height: 650px; background-image: url(&quot;img/slider1.png&quot;);">
+                       
+                                <img src="img/slider1.png" height="1080" width="1920" class="center-image" alt="" style="display: none;"/>
+                                <div class="center-tagline">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-8 col-md-offset-2 banner-text  type-1-center">
+                                                <div class="banner-article">
+                                                    <h1 class="title">
+                                                        Expect the unexpected
 
-      #message p {
-        font-weight: 300;
-        line-height: 150%;
-      }
+                                                    </h1>
+                                                    <div class="description">
+                                                       Monitor, track and grow your money with Qykly.
+                                                    </div>
+                                                    <center>
+                                                    </center>
+                                                    <a class="" href="https://play.google.com/store/apps/details?id=qykly.me" target="_blank">
+                                                        <span>
+                                                            <img src="img/play_store.png" />
+                                                        </span>
+                                                    </a>
+                                                    <br/>
+                                                </div>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide " style="width: 1296px; height: 650px; background-image: url(&quot;img/slider3.pngjpg&quot;);">
+                                <img src="img/slider3.jpg" height="1080" width="1920" class="center-image" alt="" style="display: none;"/>
+                                <div class="center-tagline">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-8 col-md-offset-2 banner-text type-1-center">
+                                                <div class="banner-article">
+                                                    <h1 class="title">
+                                                        Time for a surprise!
 
-      #message ul {
-        list-style: none;
-        margin: 16px 0 0;
-        padding: 0;
-        text-align: center;
-      }
+                                                    </h1>
+                                                    <div class="description">
+                                                       Get insights on forgotten online wallets, dormant accounts.
+                                                    </div>
+                                                    <a class=""  href="https://play.google.com/store/apps/details?id=qykly.me" target="_blank">
+                                                        <span>
+                                                            <img src="img/play_store.png"/>
+                                                        </span>
+                                                    </a>
+                                                    <br/>
+                                                </div>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="width: 1296px; height: 650px; background-image: url(&quot;img/slider4.png&quot;);">
+                                <img src="img/slider4.png" height="1080" width="1920" class="center-image" alt="" style="display: none;"/>
+                                <div class="center-tagline">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-8 col-md-offset-2 banner-text type-1-center">
+                                                <div class="banner-article">
+                                                    <h1 class="title">
+                                                       Track your travel
 
-      #message li a {
-        display: inline-block;
-        padding: 8px;
-        text-transform: uppercase;
-        text-decoration: none;
-        font-weight: 500;
-        background: rgb(3,155,229);
-        color: white;
-        border: 1px solid rgb(3,155,229);
-        border-radius: 3px;
-        font-size: 14px;
-        box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h1>Welcome to Firebase Hosting</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <ul>
-        <li><a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a></li>
-      </ul>
-    </div>
-  </body>
-</html>
+                                                    </h1>
+                                                    <div class="description">
+                                                     Automated updates on flight bookings, hotel confirmations and PNR status.
+                                                    </div>
+                                                    <a class="" href="https://play.google.com/store/apps/details?id=qykly.me"  target="_blank">
+                                                        <span>
+                                                            <img src="img/play_store.png"/>
+                                                        </span>
+                                                    </a>
+                                                    <br/>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                   
+
+
+
+                        
+
+                        <div class="pagination"></div>
+
+                            <div class="swiper-arrow left default-arrow"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></div>
+                            <div class="swiper-arrow right default-arrow"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></div>
+                        </div>
+                </div>
+                <!-- end block -->
+                <!-- BLOCK "TYPE 11" -->
+                <!--
+                    <div class="new-block type-11 increased-height scroll-to-block" data-id="home">
+                        <div class="swiper-container horizontal-pagination" data-autoplay="0" data-loop="0" data-speed="500" data-center="0" data-slides-per-view="1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/background1a.png" height="1080" width="1920" class="center-image" alt="" />
+                                    <div class="center-tagline">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-10 col-md-offset-1 banner-text ">
+                                                    <div class="banner-article" style="text-align: center">
+                                                        <h1 class="title" style="font-size: 22px;line-height: 30px">
+                                                            Qykly enables you to keep an eye on all your monetary movements allowing you to discern on how much and where you are spending.
+                                                        </h1>
+                                                        <div class="description" style="text-align: center;line-height: 23px;font-family: 'Fira Sans', sans-serif;font-size: 20px">
+                                                            Don't we all love getting something extra, especially when we least expected it?
+                                                            <br/>
+                                                            We're recreating the same feeling with your money, giving you a whole new perspective.
+                                                        </div>
+                                                        <a class="button" href="#">
+                                                            <span>
+                                                                Download App
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/slider-2-.png" height="1080" width="1920" class="center-image" alt="" />
+                                    <div class="center-tagline">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-10 col-md-offset-1 banner-text ">
+                                                    <div class="banner-article" style="text-align: center">
+                                                        <h1 class="title" style="font-size: 22px;line-height: 30px">
+                                                            Isn't it perplexing to track your online purchases made from different sites all at the same time?
+                                                        </h1>
+                                                        <div class="description" style="text-align: center;line-height: 23px;font-family: 'Fira Sans', sans-serif;font-size: 20px">
+                                                            Qykly, simplifying life big time brings all your purchases under one single roof, allowing easy tracking.
+                                                        </div>
+                                                        <a class="button" href="#">
+                                                            <span>
+                                                                Download App
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/slider-3.png" height="1080" width="1920" class="center-image" alt="" />
+                                    <div class="center-tagline">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-10 col-md-offset-1 banner-text ">
+                                                    <div class="banner-article" style="text-align: center">
+                                                        <h1 class="title" style="font-size: 22px;line-height: 30px">
+                                                            Isn't it such a delight to find money in your old forgotten wallets or washed jeans?
+                                                        </h1>
+                                                        <div class="description" style="text-align: center;line-height: 23px;font-family: 'Fira Sans', sans-serif;font-size: 20px">
+                                                            Qykly provides insights on your various online wallets and dormant bank accounts.
+                                                        </div>
+                                                        <a class="button" href="#">
+                                                            <span>
+                                                                Download App
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/slider-4.png" height="1080" width="1920" class="center-image" alt="" />
+                                    <div class="center-tagline">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-10 col-md-offset-1 banner-text ">
+                                                    <div class="banner-article" style="text-align: center">
+                                                        <h1 class="title" style="font-size: 22px;line-height: 30px">
+                                                            Did you just miss an airline web-check in?
+                                                        </h1>
+                                                        <div class="description" style="text-align: center;line-height: 23px;font-family: 'Fira Sans', sans-serif;font-size: 20px">
+                                                            Qykly notifies you about web-check in, flight delays, PNR's, hotel bookings and a lot more.
+                                                        </div>
+                                                        <a class="button" href="#">
+                                                            <span>
+                                                                Download App
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination">
+                            </div>
+                            <div class="swiper-arrow left default-arrow">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
+                                </span>
+                            </div>
+                            <div class="swiper-arrow right default-arrow">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                -->
+                <!-- BLOCK "TYPE 1" -->
+                <!--
+                    <div class="block type-1 scroll-to-block" data-id="home">
+                        <div class="clip">
+                            <div class="bg" style="background-image:url(img/content/Home-5/home-5-banner.jpg);">
+                            </div>
+                            <div class="bg-span">
+                            </div>
+                        </div>
+                        <div style="visibility: visible; animation-delay: 0.3s;" class="container type-1-text wow flipInX animated animated animated animated animated" data-wow-delay="0.3s">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2 type-1-center">
+                                    <article class="big white table">
+                                        <div class="bottom-screens-align">
+                                            <h1 class="h1">
+                                                Simplifying Life
+                                            </h1>
+                                            <div id="mySlides">
+                                                <p>
+                                                    Your Free Personal Assistant
+                                                    <br/>
+                                                    (Manages all your monetary movements)
+                                                </p>
+                                                <p>
+                                                    Systematizes,
+                                                    for first things first
+                                                    <br/>
+                                                    (Prioritizes and drives you to what is important)
+                                                </p>
+                                                <p>
+                                                    One stop solution
+                                                    <br/>
+                                                    (Auto-tracks all your transactions,travel bookings,purchases securely)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                -->
+                <!-- BLOCK "TYPE 1" -->
+                <!-- BLOCK "TYPE 20" -->
+                <div data-id="what-is-qykly" class="new-block type-20 scroll-to-block">
+                    <div class="container">
+                        <!--
+                            <div class="screens-preview-animation">
+                                <div class="screens-preview-box">
+                                    <div class="im">
+                                        <img src="img/content/Home-5/1-Overview.png" alt=""/>
+                                        <div class="left">
+                                            <div class="im">
+                                                <img src="img/content/Home-5/3-Purchases.png" alt=""/>
+                                            </div>
+                                            <div class="im">
+                                                <img src="img/content/Home-5/2-finance.png" alt=""/>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="im">
+                                                <img src="img/content/Home-5/4-utilities.png" alt=""/>
+                                            </div>
+                                            <div class="im">
+                                                <img src="img/content/Home-5/5-Travel.png" alt=""/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        -->
+                        <!--
+                            <div class="screens-preview-margin">
+                            </div>
+                        -->
+                        <div class="row page-tagline">
+                            <div style="visibility: visible; animation-delay: 0.3s;" class="col-md-6 col-md-offset-3 wow flipInX animated animated animated animated animated" data-wow-delay="0.3s">
+                                <h2 class="title" style="color: #575757">
+                                    WHY
+                                </h2>
+                                <!--
+                                    <div class="description">
+                                        Your SMS inbox often buries the important stuff and creates more stress than it relieves. QYKLY, Because It helps you live and work better.
+                                    </div>
+                                -->
+                            </div>
+                        </div>
+                        <div class="row counters-box">
+                            <div style="visibility: visible; animation-delay: 0.3s;" class="col-md-4 counter-entry wow fadeInLeft animated animated animated animated" data-wow-delay="0.3s">
+                           
+                                
+                   
+                                <span class="counter">
+                                        <img src="img/real-time-data.png" height="150">
+                                        <div class="clear"></div>
+                                    REAL
+                                    TIME DATA
+                                   
+                                </span>
+                                <div class="description">
+                                    <p>
+                                        <i class="fa fa-check-square-o" aria-hidden="true">
+                                        </i>
+                                        Tracks and manages your transactions
+                                        <br/>
+                                        <i class="fa fa-check-square-o" aria-hidden="true">
+                                        </i>
+                                        Tracks your E-com Purchases
+                                        <br/>
+                                        <i class="fa fa-check-square-o" aria-hidden="true">
+                                        </i>
+                                        Shows real time updates of PNR status & travel plans
+                                    </p>
+                                </div>
+                            </div>
+                            <div style="visibility: visible; animation-delay: 0.6s;" class="col-md-4 counter-entry wow fadeInUp animated animated animated animated" data-wow-delay="0.6s">
+                                <span class="counter">
+                                        <img src="img/all-in-one.png" height="150">
+                                        <div class="clear"></div>
+
+                                    ALL
+                                    IN ONE
+                                    
+                                </span>
+                                <div class="description">
+                                    <p>
+                                        <i class="fa fa-check-square-o" aria-hidden="true">
+                                        </i>
+                                        All your money, bills, travel,purchases are managed at a single place
+                                        <br/>
+                                        <i class="fa fa-check-square-o" aria-hidden="true">
+                                        </i>
+                                        Get alerts of bills, EMIs etc before due dates
+                                        <br/>
+                                        <i class="fa fa-check-square-o" aria-hidden="true">
+                                        </i>
+                                        Crisp and clear interface with minimal manual data entry procedure
+                                    </p>
+                                </div>
+                            </div>
+                            <div style="visibility: visible; animation-delay: 0.3s;" class="col-md-4 counter-entry wow fadeInRight animated animated animated animated" data-wow-delay="0.3s">
+                                <!--
+                                    <i class="fa fa-users">
+                                    </i>
+                                -->
+                                <span class="counter">
+                                        <img src="img/safe-n-secure.png" height="150">
+                                         <div class="clear"></div>
+                                    SAFE
+                                    AND SECURE
+                                   
+                                </span>
+                                <div class="description" style="margin-right: 0px" >
+                                    <p>
+                                        <i class="fa fa-check-square-o" aria-hidden="true">
+                                        </i>
+                                        Never stores bank account details passwords, OTPs, etc
+                                        <br/>
+                                        <i class="fa fa-check-square-o" aria-hidden="true">
+                                        </i>
+                                        Never reads your perosnal messages
+                                    </br/>
+                                    <i class="fa fa-check-square-o" aria-hidden="true">
+                                    </i>
+                                    Protects and never shares your data
+                                    <br/>
+                                    <!-- <span>
+                                        Secured By
+                                    </span>
+                                    <br/>
+                                    <img class ="pul-right"src="img/geotrust-validation image.png" height="60px"/> -->
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- BLOCK "TYPE 7" -->
+            <div class="block type-7 scroll-to-block" data-id="video" style="padding-top: 50px;padding-bottom: 0px;background-color: rgb(234,241,254);">
+                <div class="container">
+                    <div class="row page-tagline">
+                        <div style="visibility: visible; animation-delay: 0.3s;" class="col-md-12  wow flipInX animated animated animated" data-wow-delay="0.3s">
+                            <h2 class="title">
+                                WATCH THE VIDEO
+                            </h2>
+                            <div class="blog-post">
+                                <iframe width="70%" height="480"  src="https://www.youtube.com/embed/93qJb0tjNW0" frameborder="0" allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-id="about" class="new-block type-20 scroll-to-block" style="background-color: rgb(255, 25 5, 255);">
+                <div class="container">
+                    <div class="row page-tagline">
+                        <div style="visibility: visible; animation-delay: 0.3s;" class="col-md-6 col-md-offset-3 wow flipInX animated animated animated animated animated" data-wow-delay="0.3s">
+                            <h2 class="title" style="color:#575757">
+                                About Qykly
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row counters-box">
+                        <div style="visibility: visible; animation-delay: 0.3s;" class="col-md-6 counter-entry wow fadeInLeft animated animated animated animated" data-wow-delay="0.3s">
+                            <span class="counter">
+                                The Product
+                            </span>
+                            <div class="description">
+                                <p>
+                                    Qykly is an innovative and Interactive personal assistant. Qykly is a platform that would bring access to all the services you use be it credit cards, e-commerce, travel, hotel bookings, shopping, banking, bills and more to just one screen for the omni present consumer. Qykly is the out of space, next generation experience for the end consumer.
+                                    Qykly thrives to provide highest level of privacy & extreme convenience to the end consumer, thus making all your financial chores effortless and seamless.
+                                </p>
+                            </div>
+                        </div>
+                        <div style="visibility: visible; animation-delay: 0.6s;" class="col-md-6 counter-entry wow fadeInUp animated animated animated animated" data-wow-delay="0.6s">
+                            <span class="counter">
+                                Vision
+                            </span>
+                            <div class="description">
+                                Qykly has a vision to change the way consumers manage their financial transactions, the way they track their purchases, the way they manage their travel bookings, basically change the viewpoint of how we consume services & products in our daily life.
+                                Qykly’s ever evolving technology ties it up with global giants to pull relevant datasets based on the consumer needs, demographics and potential desires. Driven by deep drill down analytics of consumer behavior, Qykly would provide the end consumer luxury of using his mobile device to pay bills, EMI’s,banking services, loans and many other services.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <hr/> -->
+        <!-- BLOCK "TYPE 2" -->
+        <!--
+            <div data-id="discover-qykly" class="block type-2 scroll-to-block">
+                <div class="container-fluid type-2-text">
+                    <div  class="row">
+                        <div style="background-image: url(&quot;img/content/Home-1/big_content_image_1.jpg&quot;); visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;" class="image-block mob-hide wow fadeInLeft animated animated animated animated animated" data-wow-delay="0.3s">
+                            <img style="display: none;" class="center-image" src="img/content/Home-1/big_content_image_1.jpg" alt=""/>
+                            <a href="#" class="play" data-src="https://www.youtube.com/embed/RqMmtcPjCwA?rel=0">
+                            </a>
+                        </div>
+                        <div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;" class="col-md-4 col-md-offset-7 col-sm-12 col-sm-offset-0 wow fadeInRight animated animated animated animated animated" data-wow-delay="0.3s">
+                            <article class="normall">
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        -->
+        <!-- BLOCK "TYPE 2" -->
+        <div>
+        </div>
+        <div class="new-block type-9 color-background scroll-to-block" data-id="how-it-work">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <div class="swiper-container " data-autoplay="0" data-loop="0" data-speed="500" data-center="0" data-slides-per-view="1" style="">
+
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-color: #4861a8;">
+                                    <div class="paddings-container">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="cell-view">
+                                                    <article class="normall">
+                                                        <h2 class="h2 titel-left">
+                                                            How It Works?
+                                                        </h2>
+                                                        <p style="padding-bottom: 15px;">
+                                                            Your personal assistant Qykly reads your transactional SMSs and presents them in an easy and manageable format so that you dont have to go through your clumsy inbox to find anything. Its fast, simple and secure.
+                                                            .
+                                                        </p>
+                                                        <h3 class="h3">
+                                                            Overview
+                                                        </h3>
+                                                        <p style="padding-bottom: 0px;">
+                                                            It arranges your transactional SMS into broader categories.
+                                                        </p>
+                                                        <div class="row nopadding">
+                                                            <div class="col-md-6 nopadding">
+                                                                <ul class="list-style-1">
+                                                                    <li>
+                                                                        Finance
+                                                                    </li>
+                                                                    <li>
+                                                                        Purchases
+                                                                    </li>
+                                                                    <li>
+                                                                        Travel
+                                                                    </li>
+                                                                    <li>
+                                                                        Utilities
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <p>
+                                                            Get all the latest updates of your transactions in a single view.
+                                                            <br/>
+                                                            See your spending trend monthly, quarterly and yearly.
+                                                        </p>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="swiper-image-block">
+                                                    <img src="img/overview.png" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" style="">
+                                    <div class="paddings-container">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="cell-view">
+                                                    <article class="normall">
+                                                        <h2 class="h2 titel-left">
+                                                            Finance
+                                                        </h2>
+                                                        <ul class="list-style-1">
+                                                            <li>
+                                                                Auto tracks your expenses through credit or debit cards, net banking, cash withdrawals or cheque.
+                                                            </li>
+                                                            <li>
+                                                                Monitors your money, present in different online wallets such as paytm, mobikwik, payu etc.
+                                                            </li>
+                                                            <li>
+                                                                Provides intuitive visualizations and insights on your expenses.
+                                                            </li>
+                                                            <li>
+                                                                Sets monthly budgets allowing you to save money.
+                                                            </li>
+                                                        </ul>
+                                                        <div class="row nopadding">
+                                                            <div class="col-md-6 nopadding">
+                                                            </div>
+                                                            <div class="col-md-6 nopadding">
+                                                            </div>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="swiper-image-block">
+                                                    <img src="img/finance.png" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" style="">
+                                    <div class="paddings-container">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="cell-view">
+                                                    <article class="normall">
+                                                        <h2 class="h2 titel-left">
+                                                            Purchases
+                                                        </h2>
+                                                        <h3 class="h3">
+                                                        </h3>
+                                                        <ul class="list-style-1">
+                                                            <li>
+                                                                Aligns all your e-commerce purchases at one place.
+                                                            </li>
+                                                            <li>
+                                                                Easy live tracking of shipment statuses, anytime and anywhere.
+                                                            </li>
+                                                            <li>
+                                                                Notifies you with delivery schedules.
+                                                            </li>
+                                                        </ul>
+                                                        <div class="row nopadding">
+                                                            <div class="col-md-6 nopadding">
+                                                            </div>
+                                                            <div class="col-md-6 nopadding">
+                                                            </div>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="swiper-image-block">
+                                                    <img src="img/purchases.png" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" style="">
+                                    <div class="paddings-container">
+                                        <div class="row">
+                                            <div class="col-sm-6 ">
+                                                <div class="cell-view">
+                                                    <article class="normall">
+                                                        <h2 class="h2 titel-left">
+                                                            Travel
+                                                        </h2>
+                                                        <!--
+                                                            <h3 class="h3">
+                                                            </h3>
+                                                        -->
+                                                        <ul class="list-style-1">
+                                                            <li>
+                                                                The app automatically scans your SMS inbox for PNRs and alerts you for changes in schedules or any status update.
+                                                            </li>
+                                                            <li>
+                                                                Tracks your Train ticket confirmation , flight status live.
+                                                            </li>
+                                                            <li>
+                                                                Notifies you with any change in the bookings.
+                                                            </li>
+                                                            <li>
+                                                                Get instant updates on your hotel bookings.
+                                                            </li>
+                                                        </ul>
+                                                        <div class="row nopadding">
+                                                            <div class="col-md-6 nopadding">
+                                                            </div>
+                                                            <div class="col-md-6 nopadding">
+                                                            </div>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 ">
+                                                <div class="swiper-image-block">
+                                                    <img src="img/travel.png" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" style="">
+                                    <div class="paddings-container">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="cell-view">
+                                                    <article class="normall">
+                                                        <h2 class="h2 titel-left">
+                                                            Utilities
+                                                        </h2>
+                                                        <!--
+                                                            <h3 class="h3">
+                                                            </h3>
+                                                        -->
+                                                        <ul class="list-style-1">
+                                                            <li>
+                                                                Stores all your mobile/ credit cards/ utility bills & EMIs at one place.
+                                                            </li>
+                                                            <li>
+                                                                Never be late in paying bills, get reminders before the due dates.
+                                                            </li>
+                                                        </ul>
+                                                        <div class="row nopadding">
+                                                            <div class="col-md-6 nopadding">
+                                                            </div>
+                                                            <div class="col-md-6 nopadding">
+                                                            </div>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="swiper-image-block">
+                                                    <img src="img/utilities.png" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pagination" style="display: none"></div>  
+
+                           <div class="swiper-arrow left default-arrow" style="left:-4px"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span></div>  
+                           <div class="swiper-arrow right default-arrow" style="right:4px"><span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="new-block type-20 scroll-to-block" style="background-color: rgb(213, 245, 149);" data-id="ready-to-take-a-leap">
+
+                <div class="container">
+                    <div class="row page-tagline">
+                        <div style="visibility: visible; animation-delay: 0.3s;" class="col-md-12 wow flipInX animated animated animated animated animated" data-wow-delay="0.3s">
+                            <h2 class="title" style="color:#575757">
+                                READY TO TAKE THE LEAP
+                            </h2>
+                            <br/>
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=qykly.me">
+                            <img src="img/play_store.png"/>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <!-- -testimonials start here -->
+        <div data-id="testimonials" class="new-block type-20 scroll-to-block" style="background-color: #e3e3e3">
+            <div class="container">
+                <div class="row page-tagline">
+                    <div style="visibility: visible; animation-delay: 0.3s; animation-name: flipInX;" class="col-md-6 col-md-offset-3 wow flipInX animated animated animated animated animated animated" data-wow-delay="0.3s">
+                        <h2 class="title" style="color: #575757">
+                            Testimonials
+                        </h2>
+                    </div>
+                </div>
+                <div class="row counters-box">
+                    <div class="widget-entry">
+
+                        <div id="swiper-unique-id-0" class="swiper-container horizontal-pagination swiper-swiper-unique-id-0 initialized" data-autoplay="0" data-loop="0" data-speed="500" data-center="0" data-slides-per-view="1">
+                            <div style="width: 1080px; height: 262px;" class="swiper-wrapper">
+                                <div style="width: 360px; height: 262px;" class="swiper-slide swiper-slide-visible swiper-slide-active">
+                                    <div class="widget-testimonial">
+                                        <!-- first set for testimonials starts here -->
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="text">
+                                                    Omniscient...! Amazed to see this also can be done. Greatly simplified life. Long live Qykly. I am a Qykler now.
+                                                </div>
+                                                <div class="person">
+                                                    <img src="img/kaushar.png" class="img-circle" alt=""/>
+                                                    <div class="description">
+                                                        <span>
+                                                            Kaushar Ali
+                                                        </span>
+                                                        <!-- Director “Optigra Corp” -->
+                                                    </div>
+                                                    <div class="clear">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-4">
+                                                <div class="text">
+                                                    <strong>
+                                                        Innovative n useful
+                                                    </strong>
+                                                    Like the concept and information that is provided which helps one to have all his finances at his fist. Now no worry to scroll through your SMSs to get info abt finances , travel etc. This app has it all. Five star app.
+                                                </div>
+                                                <div class="person">
+                                                    <img src="img/samar.jpg" class="img-circle" alt=""/>
+                                                    <div class="description">
+                                                        <span>
+                                                            Samar Sisodia
+                                                        </span>
+                                                        <!-- Director “Optigra Corp” -->
+                                                    </div>
+                                                    <div class="clear">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-4">
+                                                <div class="text">
+                                                    <strong>
+                                                        Astonish app Great app.
+                                                    </strong>
+                                                    Very innovative. Now don't have to hassle with messages to see where I am spending. Truly amazing kudos to the team.
+                                                </div>
+                                                <div class="person">
+                                                    <img src="img/vivek.jpg" class="img-circle" alt=""/>
+                                                    <div class="description">
+                                                        <span>
+                                                            Vivek Gupta
+                                                        </span>
+                                                        <!-- Director “Optigra Corp” -->
+                                                    </div>
+                                                    <div class="clear">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="width: 360px; height: 262px;" class="swiper-slide">
+                                    <div class="widget-testimonial">
+                                        <!-- second set for testimonials starts here -->
+                                        <div class="row">
+                                        <div class=" col-sm-4">
+                                                <div class="text">
+                                                    <strong>
+                                                        Astonished😎. This is Just a Perfect App!
+                                                    </strong>
+                                                    This Can't get any better! 😊👍 I happened to come across Qykly while I was looking for different apps to sort out my finances, budget and what not! And Qykly occured as a pleasant surprise which helped me to
+                                                    manage everything starting from finances to even my travel details. This virtual assistant is exactly what was needed. Being fast as well as easy to use Qykly has definitely taken this Genre of Apps to a better level. I am not a regular app reviewer but this App certainly deserved a positive response.
+                                                </div>
+                                                <div class="person">
+                                                    <img src="img/shreya.jpg" class="img-circle" alt=""/>
+                                                    <div class="description">
+                                                        <span>
+                                                            Shreya Sawhney
+                                                        </span>
+                                                        <!-- Director “Optigra Corp” -->
+                                                    </div>
+                                                    <div class="clear">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-md-4">
+                                                <div class="text">
+                                                    Very helpful As now a days we have stopped using messages but we get updated through them so a nice way to get everything organised
+                                                </div>
+                                                <div class="person">
+                                                    <img src="img/vikram.jpg" class="img-circle" alt=""/>
+                                                    <div class="description">
+                                                        <span>
+                                                            Vikramaditya Jaiswal
+                                                        </span>
+                                                        <!-- Director “Optigra Corp” -->
+                                                    </div>
+                                                    <div class="clear">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="text">
+                                                    Useful app! A good app go keep a tap on your financial expenditures , tickets summary , online purchases, and many more things through a single platform
+                                                </div>
+                                                <div class="person">
+                                                    <img src="img/pawandeep.jpg" class="img-circle" alt=""/>
+                                                    <div class="description">
+                                                        <span>
+                                                            Pawandeep Singh
+                                                        </span>
+                                                        <!-- Director “Optigra Corp” -->
+                                                    </div>
+                                                    <div class="clear">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="width: 360px; height: 262px;" class="swiper-slide">
+                                    <div class="widget-testimonial">
+                                        <!-- third set for testimonials starts here -->
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="text">
+                                                    Something unique No need to keep on searching for a particular sms in your inbox.at just one click you can have all details on how much you have spent, what are your balances in your bank accounts and even credit card limits. Great.
+                                                </div>
+                                                <div class="person">
+                                                    <img src="img/common.png" class="img-circle" alt=""/>
+                                                    <div class="description">
+                                                        <span>
+                                                            Vishal Seth
+                                                        </span>
+                                                        <!-- Director “Optigra Corp” -->
+                                                    </div>
+                                                    <div class="clear">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="text">
+                                                    Very informative This comes under a set of apps which everyone should have on their phone. The Information I got on my first visit was very amazing. Good going
+                                                </div>
+                                                <div class="person">
+                                                    <img src="img/common.png" class="img-circle" alt=""/>
+                                                    <div class="description">
+                                                        <span>
+                                                            Mukesh Kumar
+                                                        </span>
+                                                        <!-- Director “Optigra Corp” -->
+                                                    </div>
+                                                    <div class="clear">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="text">
+                                                    Highly recommended Very useful app. Seeing my data this much sorted and getting alerts about upcoming journey and packets is wonderful.
+                                                </div>
+                                                <div class="person">
+                                                    <img src="img/common.png" class="img-circle" alt=""/>
+                                                    <div class="description">
+                                                        <span>
+                                                            Shivam Shrivastva
+                                                        </span>
+                                                        <!-- Director “Optigra Corp” -->
+                                                    </div>
+                                                    <div class="clear">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination testimonial-widget-pagination pagination-swiper-unique-id-0">
+                                <span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch">
+                                </span>
+                                <span class="swiper-pagination-switch">
+                                </span>
+                                <span class="swiper-pagination-switch">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- testimonials end here -->
+       
+        
+            <div class="new-block type-17 scroll-to-block" data-id="blog">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-push-1">
+                            <div class="row page-tagline">
+                                <div style="visibility: visible; animation-delay: 0.3s; animation-name: flipInX;" class="col-md-6 col-md-offset-3 wow flipInX animated" data-wow-delay="0.3s">
+                                    <h2 class="title">
+                                        from blog
+                                    </h2>
+                                   <!--  <div class="description">
+                                        Tonsequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus, et hendrerit mi. Praesent at vestibulum tortor. Praesent condimentum efficitur massa pharetra dolor sed.
+                                    </div> -->
+                                </div>
+                            </div>
+                           
+                            <div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;" class="row blog-entry nopadding wow fadeInUp animated" data-wow-delay="0.3s" >
+                                <div class="col-sm-6 nopadding ">
+                                    <a class="blog-entry-image" href="blog.html" target="_blank">
+                                        <img src="img/blog1.png" alt="" height="264" width="470"/>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 nopadding ">
+                                    <div class="cell-view">
+                                        <div class="post-data">
+                                            <div class="date">
+                                                May 26, 2016
+                                            </div>
+                                            <a href="blog.html" target="_blank">
+                                                money management
+                                            </a>
+                                        </div>
+                                        <a class="title" href="blog.html" target="_blank">
+                                           5 Warren Buffett tips everyone must follow
+
+                                        </a>
+                                        <a href="blog.html" target="_blank" class="description">
+                                           If you buy things you don't need, you will soon sell things you need. - Warren Buffett.All of us suffer from the urge to splurge and we justify our spending using the pretext of special occasions, peer pressure, lifestyle, family, emotions and even smart decisions. 
+                                        </a >
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;" class="row blog-entry nopadding wow fadeInUp animated" data-wow-delay="0.3s">
+                                <div class="col-sm-6 nopadding  col-sm-push-6">
+                                    <a class="blog-entry-image" href="#">
+                                        <img src="img/home-5-banner-1.jpg" alt="" height="264" width="470"/>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 nopadding  col-sm-pull-6">
+                                    <div class="cell-view">
+                                        <div class="post-data">
+                                            <div class="date">
+                                                Mar 18, 2014
+                                            </div>
+                                            <a href="#">
+                                                development
+                                            </a>
+                                        </div>
+                                        <a class="title">
+                                            In gravida dignissim sapien, sed vestibulum neque interdum id
+                                        </a>
+                                        <div class="description">
+                                            Duis venenatis sapien vel ipsum cursus, at eleifend tellus tempor. Aliquam elementum elementum lacus a aliquam. Pellentesque scelerisque aliquet ligula vel aliquam.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="submit-wraper">
+                        <a href="https://qykly.wordpress.com/" target="_blank">
+                            
+                        <div class="button" >
+                            More Blogs
+                            
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+        <!-- Copied from Index -->
+        <!-- Copied Block From Index-2 -->
+        <!-- Copied Block From index-2 -->
+        <!--
+            BLOCK "TYPE 6"
+            <div class="new-block parallax-bg-text scroll-to-block" data-id="why">
+                <div class="clip">
+                    <div class="bg" style="background-image:url(img/content/Home-5/home-5-banner-2.jpg);">
+                    </div>
+                    <div class="bg-span">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-8 content-entry wow fadeInLeft" data-wow-delay="0.3s">
+                            <div class="cell-view align-slider-article">
+                                <article class="normall">
+                                    <h2 class="h2 titel-left">
+                                        take a toure
+                                    </h2>
+                                    <p>
+                                        Integer elementum efficitur quam et vulputate. Morbi porta, lacus eget consectetur cursus, justo purus porttitor lacus, sit amet suscipit nibh velit eget lectus. Aenean placerat ex et lacus pretium condimentum. Maecenas hendrerit semper sapien. Maecenas lectus mauris, fringilla et odio a, bibendum imperdiet nibh. Aenean eu scelerisque tellus.
+                                    </p>
+                                    <div class="clear">
+                                    </div>
+                                </article>
+                                <div class="two-columns-icons">
+                                    <div class="row">
+                                        <div data-wow-delay="0.3s" class="col-sm-6 little-img-text-entry wow flipInY">
+                                            <img src="img/icon10.png" alt=""/>
+                                            <article class="small">
+                                                <h5 class="h5">
+                                                    online shopping
+                                                </h5>
+                                                <p>
+                                                    Etiam neque tortor, bibendum id maximus vitae, tincidunt id libero. Morbi ac leo vitae sapien rutrum sempe.
+                                                </p>
+                                            </article>
+                                        </div>
+                                        <div data-wow-delay="0.6s" class="col-sm-6 little-img-text-entry wow flipInY">
+                                            <img src="img/icon11.png" alt=""/>
+                                            <article class="small">
+                                                <h5 class="h5">
+                                                    multimedia archives
+                                                </h5>
+                                                <p>
+                                                    Vestibulum accumsan est malesuada sem auctor, eu aliquet nisi ornare. Aliquam dapibus lectus
+                                                </p>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="button">
+                                    <span>
+                                        read more
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 content-entry wow fadeInRight" data-wow-delay="0.6s">
+                            <div class="screens-slider-box">
+                                <div class="swiper-container horizontal-pagination" data-autoplay="0" data-loop="0" data-speed="500" data-center="0" data-slides-per-view="1">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="img/content/Home-5/screens_slider_image_1.jpg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/content/Home-5/screens_slider_image_2.jpg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/content/Home-5/screens_slider_image_3.jpg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/content/Home-5/screens_slider_image_4.jpg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/content/Home-5/screens_slider_image_5.jpg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/content/Home-5/screens_slider_image_6.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="pagination">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- BLOCK "TYPE 6" -->
+            <!--
+                BLOCK "TYPE 3"
+                <div class="new-block type-3 type-3-1 color-background scroll-to-block" data-id="benefits">
+                    <div class="container type-3-text icons-at-the-top">
+                        <div class="row page-tagline">
+                            <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
+                                <h2 class="title">
+                                    take more with us
+                                </h2>
+                                <div class="description">
+                                    Tonsequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus, et hendrerit mi. Praesent at vestibulum tortor. Praesent condimentum efficitur massa pharetra dolor sed.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div data-wow-delay="0.3s" class="col-md-4 col-sm-6 little-img-text-entry wow flipInY">
+                                <img src="img/icon10.png" alt=""/>
+                                <article class="small">
+                                    <h5 class="h5">
+                                        online shopping
+                                    </h5>
+                                    <p>
+                                        Etiam neque tortor, bibendum id maximus vitae, tincidunt id libero. Morbi ac leo vitae sapien rutrum sempe.
+                                    </p>
+                                </article>
+                            </div>
+                            <div data-wow-delay="0.6s" class="col-md-4 col-sm-6 little-img-text-entry wow flipInY">
+                                <img src="img/icon11.png" alt=""/>
+                                <article class="small">
+                                    <h5 class="h5">
+                                        multimedia archives
+                                    </h5>
+                                    <p>
+                                        Vestibulum accumsan est malesuada sem auctor, eu aliquet nisi ornare. Aliquam dapibus lectus
+                                    </p>
+                                </article>
+                            </div>
+                            <div data-wow-delay="0.9s" class="col-md-4 col-sm-6 little-img-text-entry wow flipInY">
+                                <img src="img/icon12.png" alt=""/>
+                                <article class="small">
+                                    <h5 class="h5">
+                                        quick settings
+                                    </h5>
+                                    <p>
+                                        Fusce ullamcorper turpis at eros blandit, at iaculis eros bibendum. In diam erat, gravida sit amet aliquet vitae
+                                    </p>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-block color-background" style="padding: 0;">
+                    <div class="container">
+                        <div class="footer-animation-screen-box">
+                            <div class="footer-animation-screen wow fadeInRight" data-wow-delay="0.9s">
+                                <img src="img/content/Home-5/footer-animation-screen-1.jpg" alt="" />
+                            </div>
+                            <div class="footer-animation-screen wow fadeInRight" data-wow-delay="0.7s">
+                                <img src="img/content/Home-5/footer-animation-screen-2.jpg" alt="" />
+                            </div>
+                            <div class="footer-animation-screen wow fadeInRight" data-wow-delay="0.5s">
+                                <img src="img/content/Home-5/footer-animation-screen-3.jpg" alt="" />
+                            </div>
+                            <div class="footer-animation-screen wow fadeInRight" data-wow-delay="0.3s">
+                                <img src="img/content/Home-5/footer-animation-screen-4.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="clear">
+                        </div>
+                    </div>
+                </div>
+                <div class="new-block parallax-bg-text scroll-to-block" data-id="newsletter">
+                    <div class="clip">
+                        <div class="bg" style="background-image:url(img/content/Home-5/home-5-banner-1.jpg);">
+                        </div>
+                        <div class="bg-span">
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row page-tagline">
+                            <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
+                                <h2 class="title">
+                                    newsletter
+                                </h2>
+                                <div class="description">
+                                    Tonsequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus, et hendrerit mi. Praesent at vestibulum tortor. Praesent condimentum efficitur massa pharetra dolor sed.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="styled-form wow flipInX" data-wow-delay="0.3s">
+                            <div class="form-title">
+                                Email Adress
+                            </div>
+                            <form id="subscribtion-form">
+                                <div class="submit-wrapper">
+                                    <input type="submit" value="" />
+                                </div>
+                                <div class="field-wrapper">
+                                    <input type="text" name="email" value="" placeholder="Enter email address" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                    BLOCK "TYPE 6"
+                    <div class="new-block color-background scroll-to-block" data-id="toure">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.3s">
+                                    <article class="normall">
+                                        <h2 class="h2 titel-left">
+                                            take a toure
+                                        </h2>
+                                        <p>
+                                            Integer elementum efficitur quam et vulputate. Morbi porta, lacus eget consectetur cursus, justo purus porttitor lacus, sit amet suscipit nibh velit eget lectus. Aenean placerat ex et lacus pretium condimentum. Maecenas hendrerit semper sapien. Maecenas lectus mauris, fringilla et odio a, bibendum imperdiet nibh. Aenean eu scelerisque tellus.
+                                        </p>
+                                        <a href="#" class="button black">
+                                            <span>
+                                                read more
+                                            </span>
+                                        </a>
+                                        <div class="clear">
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="layer-animation-screen-box">
+                                        <div class="layer-animation-screen wow fadeInDown" data-wow-delay="1.5s">
+                                            <div class="scale">
+                                                <img src="img/content/Home-5/tortik-animation-screen-1.jpg" alt=""/>
+                                            </div>
+                                        </div>
+                                        <div class="layer-animation-screen wow fadeInDown" data-wow-delay="1.2s">
+                                            <div class="scale">
+                                                <img src="img/content/Home-5/tortik-animation-screen-2.jpg" alt=""/>
+                                            </div>
+                                        </div>
+                                        <div class="layer-animation-screen wow fadeInDown" data-wow-delay="0.9s">
+                                            <div class="scale">
+                                                <img src="img/content/Home-5/tortik-animation-screen-3.jpg" alt=""/>
+                                            </div>
+                                        </div>
+                                        <div class="layer-animation-screen wow fadeInDown" data-wow-delay="0.6s">
+                                            <div class="scale">
+                                                <img src="img/content/Home-5/tortik-animation-screen-4.jpg" alt=""/>
+                                            </div>
+                                        </div>
+                                        <div class="layer-animation-screen wow fadeInDown" data-wow-delay="0.3s">
+                                            <div class="scale">
+                                                <img src="img/content/Home-5/tortik-animation-screen-5.jpg" alt=""/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BLOCK "TYPE 6" -->
+                    <div class="new-block parallax-bg-text scroll-to-block" data-id="contact" style='background-image: url("img/getintouch.jpg"); background-repeat: no-repeat;background-size: 200% 100%;'>
+                        <div class="container">
+                            <div class="row page-tagline">
+                                <div style="visibility: visible; animation-delay: 0.3s; animation-name: flipInX;" class="col-md-10 col-md-offset-2 wow flipInX animated" data-wow-delay="0.3s">
+                                    <h2 class="title" style="color: white">
+                                        get in touch
+                                    </h2>
+                                    <div class="description"  style="color: white;font-size: 20px">
+                                        If you want to send us chocolates or just want to hang out with the awesome people that created Qykly, you are most welcome to join us. Remember, the ritual here is that you have to get coffee for everyone. That's it. :)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;text-align: center" class="col-md-3 wow fadeInLeft animated" data-wow-delay="0.3s">
+                                    <div class="contact-thumbs">
+                                        <img src="img/address.png" alt=""/>
+                                        <article class="normall">
+                                            <p  style="color: #95BA73">
+                                                Address:
+                                                <br/>
+                                                <a href="" style="color: white">
+                                                    c-19, First Floor
+                                                    Sector 2, Noida, UP
+                                                    Pin Code: 201301
+                                                </a>
+                                                <br/>
+                                                Tel:
+                                                <a href=""  style="color: white">
+                                                    0120-4338804
+                                                </a>
+                                            </p>
+                                        </article>
+                                    </div>
+                                    <br/>
+                                    <div class="contact-thumbs">
+                                        <img src="img/icon8.png" alt=""/>
+                                        <article class="normall">
+                                            <p  style="color: #95BA73">
+                                                Email:
+                                                <br/>
+                                                <a href=""  style="color: white">
+                                                    qykly@aarvee-ilabs.com
+                                                </a>
+                                            </p>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;" class="col-md-7 col-md-offset-1 wow fadeInRight animated" data-wow-delay="0.3s">
+                                 <div id="message" style="font-size: 15px;color: rgb(204, 255, 157);padding-bottom: 11px;display: none;text-align: center;">
+                               
+                                     </div>
+                                    <form class="contact-form"  method="post" id="idForm" >
+                                        <input class="required" type="text" placeholder="Your name" value="" name="name" />
+                                        <input class="required" type="email" placeholder="Your email" value="" name="email" />
+                                        <input type="text" placeholder="Subject" value="" name="subject" />
+                                        <input type="text" placeholder="Mobile Number" value="" name="mob" />
+                                        <textarea  placeholder="Your Message" name="message">
+                                        </textarea>
+                                        <div class="submit-wraper">
+                                            <div class="button">
+                                                submit message
+                                                <input type="submit" value="" onclick="loadDoc()"/>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <footer>
+                        <div class="subscribe">
+
+                           <div id="message1" style="font-size: 15px;color: rgb(204, 255, 157);padding-bottom: 11px;display: none;text-align: center;">
+                               
+                            </div>
+                            <span class="subscribe-text">
+                                Stay informed our updates
+                            </span>
+                            <form id="idForm1">
+                                <input placeholder="Enter your email" required="" type="email" name="subscribe"/>
+                                <input value="" type="submit" onclick="subscribeMe()"/>
+                            </form>
+                           
+                        </div>
+                        <div class="footer-bottom">
+                            <div class="footer-linck">
+                                <a href="privacy.html" target="blank">
+                                    Privacy Policy
+                                </a>
+                                <a href="http://www.aarvee-ilabs.com/" target="blank">
+                                    About Aarvee-ilabs
+                                </a>
+                                <a href="#">
+                                    Support
+                                </a>
+                                <a href="faq.html">
+                                    FAQ
+                                </a>
+                                <a href="https://qykly.wordpress.com/" target="_blank">
+                                    Blog
+                                </a>
+                            </div>
+                            <div class="media-icon">
+                                <a href="https://www.facebook.com/qyklym/" target="blank">
+                                    <img src="img/c-icon-fb.png" alt=""/>
+                                </a>
+                                <!--
+                                    <a href="#">
+                                        <img src="img/theme-1/c-icon1.png" alt=""/>
+                                    </a>
+                                -->
+                                <a href="#">
+                                    <img src="img/c-icon2-g.png" alt=""/>
+                                </a>
+                                <a href="#">
+                                    <img src="img/c-icon3-t.png" alt=""/>
+                                </a>
+                            </div>
+                            <div class="copy">
+                                <span>
+                                    © 2016 All rights reserved. Qykly
+                                </span>
+                            </div>
+                        </div>
+                        <div class="back-to-top">
+                            <i class="fa fa-chevron-up" style="color: white">
+                            </i>
+                        </div>
+                    </footer>
+                    <!-- POPUP "VIDEO" -->
+                    <div class="video-popup">
+                        <span>
+                        </span>
+                        <span>
+                        </span>
+                        <iframe src="#">
+                        </iframe>
+                        <a href="#">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="theme-config">
+                <div class="title">
+                    Select Color:
+                </div>
+                <div class="colours-wrapper">
+                    <div data-theme="theme-1" style="color: #fbc011;" class="entry active">
+                    </div>
+                    <div data-theme="theme-2" style="color: #00bbd2;" class="entry">
+                    </div>
+                    <div data-theme="theme-3" style="color: #4caf50;" class="entry">
+                    </div>
+                    <div data-theme="theme-4" style="color: #ba68c8;" class="entry">
+                    </div>
+                    <div data-theme="theme-5" style="color: #d80d0d;" class="entry">
+                    </div>
+                    <div data-theme="theme-6" style="color: #0045ad;" class="entry">
+                    </div>
+                    <div data-theme="theme-7" style="color: #dd137b;" class="entry">
+                    </div>
+                    <div data-theme="theme-8" style="color: #482d1d;" class="entry">
+                    </div>
+                </div>
+            </div>
+            <div class="screen-preview-popup">
+                <div class="overflow">
+                    <!-- <img src="img/transparent.png" alt=""/> -->
+                </div>
+                <div class="close-popup">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true">
+                    </span>
+                </div>
+            </div>
+            <script src="js/jquery-2.1.3.min.js">
+            </script>
+            <script src="js/bootstrap.min.js">
+            </script>
+            <script src="js/idangerous.swiper.min.js">
+            </script>
+            <script src="js/global.min.js">
+            </script>
+           
+            <script src="js/wow.min.js">
+            </script>
+            <script src="js/jquery.slides.min.js">
+            </script>
+            <!--
+                <script src="http://code.jquery.com/jquery-1.9.1.min.js">
+                </script>
+            -->
+            <script>
+                var wow = new WOW(
+                {
+                boxClass:     'wow',      // animated element css class (default is wow)
+                animateClass: 'animated', // animation css class (default is animated)
+                offset:       100,          // distance to the element when triggering the animation (default is 0)
+                mobile:       true,       // trigger animations on mobile devices (default is true)
+                live:         true,       // act on asynchronously loaded content (default is true)
+                callback:     function(box) {
+                // the callback is fired every time an animation is started
+                // the argument that is passed in is the DOM node being animated
+                }
+                }
+                );
+                $(window).load(function(){
+                wow.init();
+                });
+            </script>
+            <!-- counter animation -->
+            <script src="js/jquery.waypoints.min.js">
+            </script>
+            <script src="js/jquery.counterup.min.js">
+            </script>
+            <script>
+                function loadDoc() {
+
+                 var formData = {
+                        'name'              : $('input[name=name]').val(),
+                        'email'             : $('input[name=email]').val(),
+                        'subject'           : $('input[name=subject]').val(),
+                        'mobilenumber'      : $('input[name=mob]').val(),
+                        'message'           : $('textarea[name=message]').val(),
+                    };
+        
+                $("#idForm").submit(function(e) {
+
+                    var url = "http://api.qykly.me/api/webregister"; // the script where you handle the form input.
+                    $.ajax({
+                           type: "POST",
+                           url: url,
+                           data:formData,
+                           crossDomain: true, 
+                           dataType: 'json',
+                           success: function(data)
+                           {
+                               // alert(data.userMessage);
+                               $( '#idForm' ).each(function(){
+                                    this.reset();
+                                }); 
+                                $('#message').text(data.userMessage);
+                                $("#message").show();
+                           }
+                         });
+
+                    e.preventDefault(); // avoid to execute the actual submit of the form.
+                });
+            }
+
+               
+            
+            </script>
+            <script >
+                function subscribeMe() {
+
+                 var formData = {
+                        
+                        'email'             : $('input[name=subscribe]').val()
+                    };
+        
+                $("#idForm1").submit(function(e) {
+
+                    var url = "http://api.qykly.me/api/websubscribe"; // the script where you handle the form input.
+                    $.ajax({
+                           type: "POST",
+                           url: url,
+                           data:formData,
+                           crossDomain: true, 
+                           dataType: 'json',
+                           success: function(data)
+                           {
+                               // alert(data.userMessage); 
+                               $( '#idForm1' ).each(function(){
+                                    this.reset();
+                                }); 
+                                $('#message1').text(data.userMessage);
+                                $("#message1").show();
+                               
+                           }
+                         });
+
+                    e.preventDefault(); // avoid to execute the actual submit of the form.
+                });
+            }
+
+            </script>
+            <script>
+                $(window).load(function(){
+                // var mySwiper = $('.swiper-container')[0].swiper;
+                // // Now you can use all slider methods like
+                // mySwiper.slideNext();
+                var swiper = new Swiper('.swiper-container', {
+                // pagination: '.pagination',
+                // paginationClickable: true,
+                // spaceBetween: 30,
+                // centeredSlides: true,
+
+                //     autoplay: 4000,
+                //     autoplayDisableOnInteraction: true,
+                //     direction:'horizontal',
+                //     loop:true
+                });
+
+                var mySwiper = new Swiper('#swiper-unique-id-9', {
+                    
+
+ 
+                    // pagination: '.pagination',
+                    // paginationClickable: true,
+                             
+                    // slideToClickedSlide:true,
+                    // mousewheelControl:tsrue,
+                    // speed:1000,
+                    // loop:true,
+                    // uniqueNavElements:true
+                    // paginationonElement:'span'
+                    
+                });
+                // Later add callback
+                // mySwiper.on('slideChangeStart', function () {
+                // console.log('slide change start');
+                // });
+                // $('.counter').counterUp({
+                // delay: 10,
+                // time: 1000
+                // });
+                });
+            </script>
+            <!-- portfolio with filtering -->
+            <script src="js/isotope.pkgd.min.js">
+            </script>
+            <script>
+                $(function(){
+                $(window).load(function(){
+                var $container_filter = $('.filter-container').isotope({
+                itemSelector: '.filter-item',
+                masonry: {
+                columnWidth: '.filtergrid-sizer'
+                }
+                });
+                $('.filter-button').on( 'click', function() {
+                var filterValue = $(this).attr('data-filter');
+                $container_filter.isotope({ filter: filterValue });
+                $(this).parent().find('.active').removeClass('active');
+                $(this).addClass('active');
+                });
+                $('#mySlides').slidesjs({
+                // width: 940,
+                height: 100,
+                navigation:{
+                active:false
+                },
+                pagination:{
+                active:false
+                },
+                play: {
+                active: false,
+                auto: true,
+                interval: 6000,
+                swap: true,
+                }
+                });
+                });
+                });
+            </script>
+        </body>
+    </html>
